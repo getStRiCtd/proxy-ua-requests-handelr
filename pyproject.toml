@@ -1,0 +1,22 @@
+[project]
+name = "proxy-ua-requests-handler"
+version = "0.0.1"
+authors = [
+  { name="getStRiCtd"},
+]
+description = "I'm getting tired of manual passing UA and Proxy headers to requests commands. So this little library do the headers rollover for you - just add path to your ua and proxies .txt-files"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/getStRiCtd/proxy-ua-requests-handelr"
+Issues = "https://github.com/getStRiCtd/proxy-ua-requests-handelr/issues"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"

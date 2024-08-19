@@ -11,6 +11,3 @@ def get(url, params=None, **kwargs):
 def head(url, **kwargs):
     kwargs.setdefault("allow_redirects", False)
     return request("head", url, **kwargs)
-
-
-print(get('https://fastapi.tiangolo.com/python-types/').status_code)
